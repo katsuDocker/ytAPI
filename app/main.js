@@ -1,9 +1,9 @@
 let exp = require('express')
 let cors = require('cors')
 
-let setup = require('./Youtube-API/script/setup')
-let config = require('./Youtube-API/script/config')
-let yt = require('./Youtube-API/script/yt')
+let setup = require('./script/setup')
+let config = require('./script/config')
+let yt = require('./script/yt')
 
 let app = exp()
 
